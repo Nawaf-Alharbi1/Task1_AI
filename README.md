@@ -13,10 +13,10 @@ The notebook loads an image, preprocesses it, predicts its class, and displays t
 ```
 .
 ├── Image_Classification.ipynb      # Google Colab notebook
-├── keras_model.h5       # Pre-trained classification model
-├── labels.txt           # Class labels
-├── images.jpg           # Sample cat image
-├── prev.jpg             # Sample dog image
+├── keras_model.h5                  # Pre-trained classification model
+├── labels.txt                      # Class labels
+├── images.jpg                      # Sample cat image
+├── prev.jpg                        # Sample dog image
 ```
 
 ---
