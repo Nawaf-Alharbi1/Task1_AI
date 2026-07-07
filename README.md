@@ -2,16 +2,22 @@
 
 ## Overview
 
-This project demonstrates a simple image classification workflow using a pre-trained Keras model exported from Google Teachable Machine.
+This project demonstrates a simple image classification model using a pre-trained TensorFlow/Keras model exported from Google Teachable Machine.
 
-The notebook loads an image, preprocesses it, predicts its class, and displays the confidence score.
+The notebook:
+- Loads a pre-trained model.
+- Reads an input image.
+- Preprocesses the image.
+- Predicts the image class.
+- Displays the confidence score.
 
 ## Files
 
-- Image_Classification.ipynb
-- keras_model.h5
-- labels.txt
-- test.jpg
+- Untitled0.ipynb : Google Colab notebook
+- keras_model.h5 : Pre-trained model
+- labels.txt : Class labels
+- images.jpg : Sample cat image
+- prev.jpg : Sample dog image
 
 ## Requirements
 
@@ -19,12 +25,9 @@ The notebook loads an image, preprocesses it, predicts its class, and displays t
 - NumPy
 - Pillow
 
-## Run
+## How to Run
 
-Open the notebook in Google Colab.
-
-Upload an image.
-
-Run all cells.
-
-The notebook will print the predicted class and confidence score.
+1. Open the notebook in Google Colab.
+2. Upload all project files.
+3. Run the notebook.
+4. Change the image path if you want to test another image.
