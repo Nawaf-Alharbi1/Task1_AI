@@ -12,7 +12,7 @@ The notebook loads an image, preprocesses it, predicts its class, and displays t
 
 ```
 .
-├── Untitled0.ipynb      # Google Colab notebook
+├── Image_Classification.ipynb      # Google Colab notebook
 ├── keras_model.h5       # Pre-trained classification model
 ├── labels.txt           # Class labels
 ├── images.jpg           # Sample cat image
@@ -23,7 +23,7 @@ The notebook loads an image, preprocesses it, predicts its class, and displays t
 
 ## How to Run
 
-1. Open `Untitled0.ipynb` in Google Colab.
+1. Open `Image_Classification.ipynb` in Google Colab.
 2. Upload all project files to the Colab session.
 3. Make sure the image filename in the notebook matches the image you want to test.
 4. Run all notebook cells.
